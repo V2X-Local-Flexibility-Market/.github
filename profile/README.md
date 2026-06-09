@@ -1,7 +1,7 @@
 <!-- README visual palette: DriVe2X green #2FAF67, carbon black #161616, clean white #FFFFFF. -->
 
 <p align="center">
-  <img src="assets/logos/drive2x-logo-b.png" alt="DriVe2X logo" width="430" />
+  <img src="assets/logos/drive2x-logo.png" alt="DriVe2X logo" width="430" />
 </p>
 
 <h1 align="center">DriVe2X Local Flexibility Market</h1>
