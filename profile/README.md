@@ -34,7 +34,7 @@
 | Platform chain | Need estimation -> flexibility forecasting -> bidding -> clearing -> dispatch -> verification |
 | Engine family | FNEE-DD, FNEE-MD, CPFT, MGX, MPSE, MCSE, DSCE and FRVE |
 | Design values | Security, interoperability, auditable exchange, transparent outcomes and driver trust |
-| Host organisation | University of Salford |
+| Lead organisation | [University of Salford](https://ces.salford.ac.uk/) |
 
 ---
 
