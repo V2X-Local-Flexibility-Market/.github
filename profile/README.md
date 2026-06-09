@@ -157,6 +157,14 @@ This structure keeps ownership clear, avoids mixing independently developed work
 
 ---
 
+## 📚 Full documentation and contributing partners
+
+The full documentation for the DriVe2X Local Flexibility Market platform and the contributing researchers and partners is provided at the link below:
+
+- [Design of a Driver-Centric Local Flexibility Market:](PLACEHOLDER_LINK)
+
+---
+
 ## 🧠 Engine summary
 
 ### [FNEE-DD, Data-Driven Flexibility Need Estimation Engine](https://github.com/V2X-Local-Flexibility-Market/fnee-dd)
@@ -385,12 +393,11 @@ This deliverable brings together a collaborative team of researchers, engineers 
 
 ---
 
-## 👤 Project lead and contact
+## 👤 Project lead and contact person
 
-**Professor Vahid Vahidinasab**  
+[**Professor Vahid Vahidinasab**](https://github.com/vahidinasab)
 Chair in Sustainability, University of Salford  
-DriVe2X WP3 Lead  
-GitHub: [vahidinasab](https://github.com/vahidinasab)
+DriVe2X WP3 Lead and PI at the University of Salford   
 
 ---
 
