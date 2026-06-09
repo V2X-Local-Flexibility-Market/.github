@@ -1,4 +1,4 @@
-# ⚡ DriVe2X Local Flexibility Market Platform
+# ⚡ DriVe2X Local Flexibility Market
 
 <p align="center">
   <img src="assets/logos/drive2x-logo.png" alt="DriVe2X project logo" height="80" />
