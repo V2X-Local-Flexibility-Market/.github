@@ -162,7 +162,7 @@ This GitHub organisation hosts the DriVe2X-LFM software ecosystem as separate re
 | [`mcse`](https://github.com/V2X-Local-Flexibility-Market/mcse) | Market clearing, award calculation and preliminary settlement logic. |
 | [`dsce`](https://github.com/V2X-Local-Flexibility-Market/dsce) | Driver-centric scheduling and control for EV smart charging and V2X dispatch. |
 | [`frve`](https://github.com/V2X-Local-Flexibility-Market/frve) | Flexibility response verification, performance assessment and settlement evidence. |
-| [LFMO](https://github.com/V2X-Local-Flexibility-Market/LFMO) | Platform-level workflow orchestration, engine coordination and data-contract validation. |
+| [`lfmo`](https://github.com/V2X-Local-Flexibility-Market/LFMO) | Platform-level workflow orchestration, engine coordination and data-contract validation. |
 
 The following tools are treated as **external work-package engines** and are called through adapters when needed:
 
