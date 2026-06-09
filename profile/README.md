@@ -1,25 +1,44 @@
-# ⚡ DriVe2X Local Flexibility Market
+<!-- README visual palette: DriVe2X green #2FAF67, carbon black #161616, clean white #FFFFFF. -->
 
 <p align="center">
-  <img src="assets/logos/drive2x-logo.png" alt="DriVe2X project logo" height="80" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/logos/university-of-salford-logo.png" alt="University of Salford logo" height="80" />
+  <img src="assets/logos/drive2x-logo-b.png" alt="DriVe2X logo" width="430" />
 </p>
+
+<h1 align="center">DriVe2X Local Flexibility Market</h1>
 
 <p align="center">
   <strong>Driver-centric, condition-dependent, decentralised, secure and transparent local flexibility market tools for V2X-enabled energy systems.</strong>
 </p>
 
 <p align="center">
-  <a href="#-licence"><img src="https://img.shields.io/badge/Licence-Apache%202.0-blue.svg" alt="Apache License 2.0" /></a>
-  <img src="https://img.shields.io/badge/Platform-DriVe2X--LFM-0B4F8A" alt="DriVe2X-LFM" />
-  <img src="https://img.shields.io/badge/Status-Research%20Software-green" alt="Research software" />
-  <img src="https://img.shields.io/badge/Python-3.10%2B-blue" alt="Python 3.10+" />
+  <img src="https://img.shields.io/badge/DriVe2X-LFM-2FAF67?style=for-the-badge&labelColor=161616" alt="DriVe2X-LFM" />
+  <img src="https://img.shields.io/badge/Status-Research%20Software-161616?style=for-the-badge&labelColor=2FAF67" alt="Research software" />
+  <img src="https://img.shields.io/badge/Python-3.10%2B-2FAF67?style=for-the-badge&labelColor=161616" alt="Python 3.10+" />
+  <a href="#licence"><img src="https://img.shields.io/badge/Licence-Apache%202.0-161616?style=for-the-badge&labelColor=2FAF67" alt="Apache License 2.0" /></a>
+</p>
+
+<p align="center">
+  <a href="#purpose"><img src="https://img.shields.io/badge/01-Purpose-2FAF67?style=flat-square&labelColor=161616" alt="Purpose" /></a>
+  <a href="#software-architecture"><img src="https://img.shields.io/badge/02-Architecture-2FAF67?style=flat-square&labelColor=161616" alt="Architecture" /></a>
+  <a href="#platform-workflow"><img src="https://img.shields.io/badge/03-Workflow-2FAF67?style=flat-square&labelColor=161616" alt="Workflow" /></a>
+  <a href="#public-repositories"><img src="https://img.shields.io/badge/04-Repositories-2FAF67?style=flat-square&labelColor=161616" alt="Repositories" /></a>
+  <a href="#getting-started"><img src="https://img.shields.io/badge/05-Getting%20Started-2FAF67?style=flat-square&labelColor=161616" alt="Getting started" /></a>
 </p>
 
 ---
 
-## 🎯 Purpose
+## At a glance
+
+| Focus | Driver-centric local flexibility markets for V2X-enabled EV assets |
+|---|---|
+| Platform chain | Need estimation -> flexibility forecasting -> bidding -> clearing -> dispatch -> verification |
+| Engine family | FNEE-DD, FNEE-MD, CPFT, MGX, MPSE, MCSE, DSCE and FRVE |
+| Design values | Security, interoperability, auditable exchange, transparent outcomes and driver trust |
+| Host organisation | University of Salford |
+
+---
+
+## Purpose
 
 The **DriVe2X Local Flexibility Market Platform**, **DriVe2X-LFM**, is a modular research software ecosystem for designing, testing and demonstrating **driver-centric local flexibility markets** using smart and bidirectional electric vehicle, EV, assets.
 
@@ -38,7 +57,7 @@ The platform is being developed as part of the **DriVe2X project** and is aligne
 
 ---
 
-## 🧭 Marketplace concept
+## Marketplace concept
 
 The DriVe2X-LFM concept links flexibility providers, market actors, digital infrastructure and modular software engines into one driver-centric market workflow.
 
@@ -56,7 +75,7 @@ This enables a Distribution System Operator, DSO, or market facilitator to move 
 
 ---
 
-## 🧩 Software architecture
+## Software architecture
 
 The LFM platform is organised to be operated via a **core orchestrator** and through a set of modular engines.
 
@@ -80,7 +99,7 @@ The orchestrator coordinates the engines, validates data exchange, runs scenario
 
 ---
 
-## 🔁 Platform workflow
+## Platform workflow
 
 A typical day-ahead local flexibility workflow is:
 
@@ -130,7 +149,7 @@ Both routes produce the same platform-level output, `flexibility_need_windows.cs
 
 ---
 
-## 📦 Public repositories
+## Public repositories
 
 This GitHub organisation hosts the DriVe2X-LFM software ecosystem as separate repositories:
 
@@ -157,7 +176,7 @@ This structure keeps ownership clear, avoids mixing independently developed work
 
 ---
 
-## 📚 Full documentation and contributing partners
+## Full documentation and contributing partners
 
 The full documentation for the DriVe2X Local Flexibility Market platform and the contributing researchers and partners is provided at the link below:
 
@@ -165,7 +184,7 @@ The full documentation for the DriVe2X Local Flexibility Market platform and the
 
 ---
 
-## 🧠 Engine summary
+## Engine summary
 
 ### [FNEE-DD, Data-Driven Flexibility Need Estimation Engine](https://github.com/V2X-Local-Flexibility-Market/fnee-dd)
 
@@ -231,7 +250,7 @@ Checks baseline, dispatch and measurement records to verify delivered flexibilit
 
 ---
 
-## 📑 Deliverable report
+## Deliverable report
 
 The full technical background is provided in:
 
@@ -273,7 +292,7 @@ Vahidinasab, V. (2026). FNEE-DD: Data-Driven Flexibility Need Estimation Engine 
 
 ---
 
-## 🚀 Getting started
+## Getting started
 
 Each engine repository includes its own installation and execution instructions. A typical engine follows this pattern:
 
@@ -309,7 +328,7 @@ The first orchestrator version should be tested using mock engines and mock CPFT
 
 ---
 
-## 🧾 Data contracts
+## Data contracts
 
 The platform is built around explicit data contracts. These allow engines to remain independent while exchanging standardised outputs.
 
@@ -329,7 +348,7 @@ Each repository includes or should include a `docs/DATA_CONTRACT.md` file explai
 
 ---
 
-## 🔒 Data, privacy and operational use
+## Data, privacy and operational use
 
 This organisation is intended for research software, reproducible examples and platform development. Public repositories should not contain:
 
@@ -346,7 +365,7 @@ Before using any engine for operational assessment, users should configure the r
 
 ---
 
-## 🛡️ Security, interoperability and trust principles
+## Security, interoperability and trust principles
 
 The DriVe2X-LFM platform is designed around the following principles:
 
@@ -360,7 +379,7 @@ The DriVe2X-LFM platform is designed around the following principles:
 
 ---
 
-## ⚖️ Licence
+## Licence
 
 Unless stated otherwise, software repositories in this organisation are released under the **Apache License 2.0**.
 
@@ -370,7 +389,7 @@ Do not apply an open licence to confidential project material, partner-owned cod
 
 ---
 
-## 🙌 Contributing
+## Contributing
 
 Contributions, feedback and use cases are welcome.
 
@@ -387,13 +406,13 @@ Each repository should include a `CONTRIBUTING.md` file with engine-specific gui
 
 ---
 
-## 👥 Contributors
+## Contributors
 
 This deliverable brings together a collaborative team of researchers, engineers and industry experts. Contributors to individual repositories and documents are acknowledged within the relevant repository or document.
 
 ---
 
-## 👤 Project lead and contact person
+## Project lead and contact person
 
 [**Professor Vahid Vahidinasab**](https://github.com/vahidinasab)
 Chair in Sustainability, University of Salford  
@@ -401,7 +420,7 @@ DriVe2X WP3 Lead and PI at the University of Salford
 
 ---
 
-## 🙏 Acknowledgement
+## Acknowledgement
 
 This work is connected to the **DriVe2X project**.
 
