@@ -42,9 +42,9 @@ The platform is being developed as part of the **DriVe2X project** and is aligne
 
 The DriVe2X-LFM concept links flexibility providers, market actors, digital infrastructure and modular software engines into one driver-centric market workflow.
 
-<p align="center">
+<!-- <p align="center">
   <img src="assets/figures/driVe2x_lfm_marketplace_concept.png" alt="DriVe2X Local Flexibility Market Platform concept" width="95%" />
-</p>
+</p> -->
 
 The market operation flow follows:
 
@@ -58,7 +58,7 @@ This enables a Distribution System Operator, DSO, or market facilitator to move 
 
 ## 🧩 Software architecture
 
-The platform is organised as a **core orchestrator** and a set of modular engines.
+The LFM platform is organised to be operated via a **core orchestrator** and through a set of modular engines.
 
 <p align="center">
   <img src="assets/figures/driVe2x_lfm_engine_structure.png" alt="DriVe2X-LFM engine structure" width="85%" />
@@ -68,15 +68,15 @@ The orchestrator coordinates the engines, validates data exchange, runs scenario
 
 | Layer | Engine | Role |
 |---|---|---|
-| Core orchestration | [**DriVe2X-LFM Orchestrator**](https://github.com/DriVe2X-Local-Flexibility-Market/drive2x-lfm-orchestrator) | Runs workflows, coordinates engines, validates data contracts and stores platform outputs. |
-| Flexibility need estimation | [**FNEE-DD**](https://github.com/DriVe2X-Local-Flexibility-Market/fnee-dd) | Data-driven flexibility need estimation using historical phase-flow data and LSTM forecasting. |
-| Flexibility need estimation | [**FNEE-MD**](https://github.com/DriVe2X-Local-Flexibility-Market/fnee-md) | Model-driven flexibility need estimation using network modelling and power-flow analysis. |
+| Core orchestration | [**DriVe2X-LFM Orchestrator**](https://github.com/V2X-Local-Flexibility-Market/drive2x-lfm-orchestrator) | Runs workflows, coordinates engines, validates data contracts and stores platform outputs. |
+| Flexibility need estimation | [**FNEE-DD**](https://github.com/V2X-Local-Flexibility-Market/fnee-dd) | Data-driven flexibility need estimation using historical phase-flow data and LSTM forecasting. |
+| Flexibility need estimation | [**FNEE-MD**](https://github.com/V2X-Local-Flexibility-Market/fnee-md) | Model-driven flexibility need estimation using network modelling and power-flow analysis. |
 | Asset availability | [**CPFT**](https://github.com/V2X-Hub/CPFT) | Charge-Point Flexibility Forecasting Tool, developed in another DriVe2X work package and called by the platform when needed. |
 | Grid-market coupling | [**MGX**](https://github.com/V2X-Hub/MGX) | Market-Grid eXchange Engine, developed in another DriVe2X work package and called by the platform when needed. |
-| Market participation | [**MPSE**](https://github.com/DriVe2X-Local-Flexibility-Market/mpse) | Generates participant strategies, aggregator bids and offer curves. |
-| Market operation | [**MCSE**](https://github.com/DriVe2X-Local-Flexibility-Market/mcse) | Clears offers, calculates awards, prices, unmet flexibility and preliminary settlement values. |
-| Driver-centric dispatch | [**DSCE**](https://github.com/DriVe2X-Local-Flexibility-Market/dsce) | Converts market awards into feasible smart charging and discharging schedules. |
-| Verification and settlement | [**FRVE**](https://github.com/DriVe2X-Local-Flexibility-Market/frve) | Verifies delivered flexibility, assesses performance and produces settlement evidence. |
+| Market participation | [**MPSE**](https://github.com/V2X-Local-Flexibility-Market/mpse) | Generates participant strategies, aggregator bids and offer curves. |
+| Market operation | [**MCSE**](https://github.com/V2X-Local-Flexibility-Market/mcse) | Clears offers, calculates awards, prices, unmet flexibility and preliminary settlement values. |
+| Driver-centric dispatch | [**DSCE**](https://github.com/V2X-Local-Flexibility-Market/dsce) | Converts market awards into feasible smart charging and discharging schedules. |
+| Verification and settlement | [**FRVE**](https://github.com/V2X-Local-Flexibility-Market/frve) | Verifies delivered flexibility, assesses performance and produces settlement evidence. |
 
 ---
 
@@ -136,14 +136,14 @@ This GitHub organisation hosts the DriVe2X-LFM software ecosystem as separate re
 
 | Repository | Purpose |
 |---|---|
-| [`.github`](https://github.com/DriVe2X-Local-Flexibility-Market/.github) | Organisation landing page, platform overview and documentation entry point. |
-| [`fnee-dd`](https://github.com/DriVe2X-Local-Flexibility-Market/fnee-dd) | Data-driven flexibility need estimation using LSTM forecasting and congestion-window identification. |
-| [`fnee-md`](https://github.com/DriVe2X-Local-Flexibility-Market/fnee-md) | Model-driven flexibility need estimation using network modelling and power-flow analysis. |
-| [`mpse`](https://github.com/DriVe2X-Local-Flexibility-Market/mpse) | Market participation strategy, bid preparation and participant decision support. |
-| [`mcse`](https://github.com/DriVe2X-Local-Flexibility-Market/mcse) | Market clearing, award calculation and preliminary settlement logic. |
-| [`dsce`](https://github.com/DriVe2X-Local-Flexibility-Market/dsce) | Driver-centric scheduling and control for EV smart charging and V2X dispatch. |
-| [`frve`](https://github.com/DriVe2X-Local-Flexibility-Market/frve) | Flexibility response verification, performance assessment and settlement evidence. |
-| [`drive2x-lfm-orchestrator`](https://github.com/DriVe2X-Local-Flexibility-Market/drive2x-lfm-orchestrator) | Platform-level workflow orchestration, engine coordination and data-contract validation. |
+| [`.github`](https://github.com/V2X-Local-Flexibility-Market/.github) | Organisation landing page, platform overview and documentation entry point. |
+| [`fnee-dd`](https://github.com/V2X-Local-Flexibility-Market/fnee-dd) | Data-driven flexibility need estimation using LSTM forecasting and congestion-window identification. |
+| [`fnee-md`](https://github.com/V2X-Local-Flexibility-Market/fnee-md) | Model-driven flexibility need estimation using network modelling and power-flow analysis. |
+| [`mpse`](https://github.com/V2X-Local-Flexibility-Market/mpse) | Market participation strategy, bid preparation and participant decision support. |
+| [`mcse`](https://github.com/V2X-Local-Flexibility-Market/mcse) | Market clearing, award calculation and preliminary settlement logic. |
+| [`dsce`](https://github.com/V2X-Local-Flexibility-Market/dsce) | Driver-centric scheduling and control for EV smart charging and V2X dispatch. |
+| [`frve`](https://github.com/V2X-Local-Flexibility-Market/frve) | Flexibility response verification, performance assessment and settlement evidence. |
+| [`drive2x-lfm-orchestrator`](https://github.com/V2X-Local-Flexibility-Market/drive2x-lfm-orchestrator) | Platform-level workflow orchestration, engine coordination and data-contract validation. |
 
 The following tools are treated as **external work-package engines** and are called through adapters when needed:
 
@@ -159,7 +159,7 @@ This structure keeps ownership clear, avoids mixing independently developed work
 
 ## 🧠 Engine summary
 
-### [FNEE-DD, Data-Driven Flexibility Need Estimation Engine](https://github.com/DriVe2X-Local-Flexibility-Market/fnee-dd)
+### [FNEE-DD, Data-Driven Flexibility Need Estimation Engine](https://github.com/V2X-Local-Flexibility-Market/fnee-dd)
 
 Forecasts next-day phase-level active-power flow in a distribution line and identifies expected or risk-adjusted congestion windows. It converts forecasted congestion into flexibility-call windows for downstream market processes.
 
@@ -167,7 +167,7 @@ Forecasts next-day phase-level active-power flow in a distribution line and iden
 
 ---
 
-### [FNEE-MD, Model-Driven Flexibility Need Estimation Engine](https://github.com/DriVe2X-Local-Flexibility-Market/fnee-md)
+### [FNEE-MD, Model-Driven Flexibility Need Estimation Engine](https://github.com/V2X-Local-Flexibility-Market/fnee-md)
 
 Uses a network model and power-flow analysis to identify congestion, voltage violations, feeder constraints and active-power flexibility needs. It is the model-driven complement to FNEE-DD.
 
@@ -191,7 +191,7 @@ Links grid constraints, operational requirements and market processes. MGX is de
 
 ---
 
-### [MPSE, Market Participation Strategy Engine](https://github.com/DriVe2X-Local-Flexibility-Market/mpse)
+### [MPSE, Market Participation Strategy Engine](https://github.com/V2X-Local-Flexibility-Market/mpse)
 
 Converts flexibility opportunities, participant preferences, risk parameters and market conditions into participant strategies, bids and offer curves.
 
@@ -199,7 +199,7 @@ Converts flexibility opportunities, participant preferences, risk parameters and
 
 ---
 
-### [MCSE, Market Clearing and Settlement Engine](https://github.com/DriVe2X-Local-Flexibility-Market/mcse)
+### [MCSE, Market Clearing and Settlement Engine](https://github.com/V2X-Local-Flexibility-Market/mcse)
 
 Clears the market under selected rules such as pay-as-bid or pay-as-clear. It calculates accepted offers, rejected offers, clearing prices, awarded volumes, unmet flexibility and preliminary payments.
 
@@ -207,7 +207,7 @@ Clears the market under selected rules such as pay-as-bid or pay-as-clear. It ca
 
 ---
 
-### [DSCE, Driver-Centric Scheduling and Control Engine](https://github.com/DriVe2X-Local-Flexibility-Market/dsce)
+### [DSCE, Driver-Centric Scheduling and Control Engine](https://github.com/V2X-Local-Flexibility-Market/dsce)
 
 Transforms cleared market awards into feasible EV charging and discharging schedules while respecting driver constraints, state-of-charge requirements and mobility needs.
 
@@ -215,7 +215,7 @@ Transforms cleared market awards into feasible EV charging and discharging sched
 
 ---
 
-### [FRVE, Flexibility Response Verification Engine](https://github.com/DriVe2X-Local-Flexibility-Market/frve)
+### [FRVE, Flexibility Response Verification Engine](https://github.com/V2X-Local-Flexibility-Market/frve)
 
 Checks baseline, dispatch and measurement records to verify delivered flexibility, assess performance and produce settlement evidence.
 
@@ -270,7 +270,7 @@ Vahidinasab, V. (2026). FNEE-DD: Data-Driven Flexibility Need Estimation Engine 
 Each engine repository includes its own installation and execution instructions. A typical engine follows this pattern:
 
 ```bash
-git clone https://github.com/DriVe2X-Local-Flexibility-Market/<engine-repo>.git
+git clone https://github.com/V2X-Local-Flexibility-Market/<engine-repo>.git
 cd <engine-repo>
 python -m venv .venv
 source .venv/bin/activate
@@ -281,7 +281,7 @@ pytest
 On Windows PowerShell:
 
 ```powershell
-git clone https://github.com/DriVe2X-Local-Flexibility-Market/<engine-repo>.git
+git clone https://github.com/V2X-Local-Flexibility-Market/<engine-repo>.git
 cd <engine-repo>
 python -m venv .venv
 .venv\Scripts\Activate.ps1
