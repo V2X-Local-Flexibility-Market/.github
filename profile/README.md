@@ -86,7 +86,7 @@ The LFM platform is organised to be operated via a **core orchestrator** and thr
 The orchestrator coordinates the engines, validates data exchange, runs scenarios and produces platform-level outputs. Each engine remains independently testable, reusable and documented.
 
 | Layer | Engine | Role |
-|---|---|---|
+|---|------|---|
 | LFM Orchestrator | [**LFMO**](https://github.com/V2X-Local-Flexibility-Market/LFMO)     | Runs workflows, coordinates engines, validates data contracts and stores platform outputs. |
 | Flexibility need estimation | [**FNEE-DD**](https://github.com/V2X-Local-Flexibility-Market/fnee-dd)     | Data-driven flexibility need estimation using historical phase-flow data and LSTM forecasting. |
 | Flexibility need estimation | [**FNEE-MD**](https://github.com/V2X-Local-Flexibility-Market/fnee-md)     | Model-driven flexibility need estimation using network modelling and power-flow analysis. |
