@@ -91,7 +91,7 @@ The orchestrator coordinates the engines, validates data exchange, runs scenario
 | Flexibility need estimation | [**FNEE-DD**](https://github.com/V2X-Local-Flexibility-Market/fnee-dd)     | Data-driven flexibility need estimation using historical phase-flow data and LSTM forecasting. |
 | Flexibility need estimation | [**FNEE-MD**](https://github.com/V2X-Local-Flexibility-Market/fnee-md)     | Model-driven flexibility need estimation using network modelling and power-flow analysis. |
 | Asset availability | [**CPFT**](https://github.com/V2X-Hub/CPFT)     | Charge-Point Flexibility Forecasting Tool, developed in another DriVe2X work package and called by the platform when needed. |
-| Grid-market coupling | [**MGX**](https://github.com/V2X-Hub/MGX)     | Market-Grid eXchange Engine, developed in another DriVe2X work package and called by the platform when needed. |
+| Grid-market coupling | [**MGX**](https://github.com/V2X-Local-Flexibility-Market/MGX)     | Market-Grid eXchange Engine, developed in another DriVe2X work package and called by the platform when needed. |
 | Market participation | [**MPSE**](https://github.com/V2X-Local-Flexibility-Market/mpse)     | Generates participant strategies, aggregator bids and offer curves. |
 | Market operation | [**MCSE**](https://github.com/V2X-Local-Flexibility-Market/mcse)     | Clears offers, calculates awards, prices, unmet flexibility and preliminary settlement values. |
 | Driver-centric dispatch | [**DSCE**](https://github.com/V2X-Local-Flexibility-Market/dsce)     | Converts market awards into feasible smart charging and discharging schedules. |
@@ -210,7 +210,7 @@ Forecasts charge-point availability, charging demand and flexible capacity. CPFT
 
 ---
 
-### [MGX, Market-Grid eXchange Engine](https://github.com/V2X-Hub/MGX)
+### [MGX, Market-Grid eXchange Engine](https://github.com/V2X-Local-Flexibility-Market/MGX)
 
 Links grid constraints, operational requirements and market processes. MGX is developed in another DriVe2X work package and should be connected to the orchestrator through an external adapter.
 
