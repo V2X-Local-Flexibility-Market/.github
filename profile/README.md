@@ -96,6 +96,8 @@ The orchestrator coordinates the engines, validates data exchange, runs scenario
 | Market operation | [**MCSE**](https://github.com/V2X-Local-Flexibility-Market/mcse)     | Clears offers, calculates awards, prices, unmet flexibility and preliminary settlement values. |
 | Driver-centric dispatch | [**DSCE**](https://github.com/V2X-Local-Flexibility-Market/dsce)     | Converts market awards into feasible smart charging and discharging schedules. |
 | Verification and settlement | [**FRVE**](https://github.com/V2X-Local-Flexibility-Market/frve)     | Verifies delivered flexibility, assesses performance and produces settlement evidence. |
+| Market Assessment and Fairness Evaluation Engine | [**MAFE**](https://github.com/V2X-Local-Flexibility-Market/MAFE)     | Evaluates whether a cleared and verified LFM outcome is effective, fair, and inclusive. |
+
 
 ---
 
