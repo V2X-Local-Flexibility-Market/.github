@@ -88,15 +88,15 @@ The orchestrator coordinates the engines, validates data exchange, runs scenario
 | Layer | Engine | Role |
 |------|------|------|
 | LFM Orchestrator | [**LFMO**](https://github.com/V2X-Local-Flexibility-Market/LFMO)     | Runs workflows, coordinates engines, validates data contracts and stores platform outputs. |
-| Flexibility need estimation | [**FNEE-DD**](https://github.com/V2X-Local-Flexibility-Market/fnee-dd)     | Data-driven flexibility need estimation using historical phase-flow data and LSTM forecasting. |
-| Flexibility need estimation | [**FNEE-MD**](https://github.com/V2X-Local-Flexibility-Market/fnee-md)     | Model-driven flexibility need estimation using network modelling and power-flow analysis. |
+| Flexibility need estimation - Data-Driven| [**FNEE-DD**](https://github.com/V2X-Local-Flexibility-Market/fnee-dd)     | Data-driven flexibility need estimation using historical phase-flow data and LSTM forecasting. |
+| Flexibility need estimation - Model-Driven | [**FNEE-MD**](https://github.com/V2X-Local-Flexibility-Market/fnee-md)     | Model-driven flexibility need estimation using network modelling and power-flow analysis. |
 | Asset availability | [**CPFT**](https://github.com/V2X-Hub/CPFT)     | Charge-Point Flexibility Forecasting Tool, developed in another DriVe2X work package and called by the platform when needed. |
 | Grid-market coupling | [**MGX**](https://github.com/V2X-Local-Flexibility-Market/MGX)     | Market-Grid eXchange Engine, developed in another DriVe2X work package and called by the platform when needed. |
 | Market participation | [**MPSE**](https://github.com/V2X-Local-Flexibility-Market/mpse)     | Generates participant strategies, aggregator bids and offer curves. |
 | Market operation | [**MCSE**](https://github.com/V2X-Local-Flexibility-Market/mcse)     | Clears offers, calculates awards, prices, unmet flexibility and preliminary settlement values. |
 | Driver-centric dispatch | [**DSCE**](https://github.com/V2X-Local-Flexibility-Market/dsce)     | Converts market awards into feasible smart charging and discharging schedules. |
 | Verification and settlement | [**FRVE**](https://github.com/V2X-Local-Flexibility-Market/frve)     | Verifies delivered flexibility, assesses performance and produces settlement evidence. |
-| Market Assessment and Fairness Evaluation Engine | [**MAFE**](https://github.com/V2X-Local-Flexibility-Market/MAFE)     | Evaluates whether a cleared and verified LFM outcome is effective, fair, and inclusive. |
+| Fairness Evaluation | [**MAFE**](https://github.com/V2X-Local-Flexibility-Market/MAFE)     | Evaluates whether a cleared and verified LFM outcome is effective, fair, and inclusive. |
 
 
 ---
@@ -160,18 +160,21 @@ This GitHub organisation hosts the DriVe2X-LFM software ecosystem as separate re
 | [`.github`](https://github.com/V2X-Local-Flexibility-Market/.github) | Organisation landing page, platform overview and documentation entry point. |
 | [`fnee-dd`](https://github.com/V2X-Local-Flexibility-Market/fnee-dd) | Data-driven flexibility need estimation using LSTM forecasting and congestion-window identification. |
 | [`fnee-md`](https://github.com/V2X-Local-Flexibility-Market/fnee-md) | Model-driven flexibility need estimation using network modelling and power-flow analysis. |
+| [`MGX](https://github.com/V2X-Local-Flexibility-Market/MGX) | Market-Grid eXchange Engine, developed in another DriVe2X work package and called by the platform when needed. |
 | [`mpse`](https://github.com/V2X-Local-Flexibility-Market/mpse) | Market participation strategy, bid preparation and participant decision support. |
 | [`mcse`](https://github.com/V2X-Local-Flexibility-Market/mcse) | Market clearing, award calculation and preliminary settlement logic. |
 | [`dsce`](https://github.com/V2X-Local-Flexibility-Market/dsce) | Driver-centric scheduling and control for EV smart charging and V2X dispatch. |
 | [`frve`](https://github.com/V2X-Local-Flexibility-Market/frve) | Flexibility response verification, performance assessment and settlement evidence. |
 | [`lfmo`](https://github.com/V2X-Local-Flexibility-Market/LFMO) | Platform-level workflow orchestration, engine coordination and data-contract validation. |
+| [`MAFE`](https://github.com/V2X-Local-Flexibility-Market/MAFE) | Evaluates whether a cleared and verified LFM outcome is effective, fair, and inclusive. |
+
 
 The following tools are treated as **external work-package engines** and are called through adapters when needed:
 
 ```text
 External callable engines
-├── CPFT, Charge-Point Flexibility Forecasting Tool
-└── MGX, Market-Grid eXchange Engine
+├── CPFT, Charge-Point Flexibility Forecasting Tool - Linked to Drive2X WP5
+└── MGX, Market-Grid eXchange Engine - Linked to Drive2X WP8
 ```
 
 This structure keeps ownership clear, avoids mixing independently developed work-package software, and supports future integration through documented data contracts, CLI calls, APIs or file-based adapters.
