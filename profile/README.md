@@ -80,7 +80,7 @@ This enables a Distribution System Operator, DSO, or market facilitator to move 
 The LFM platform is organised to be operated via a **core orchestrator** and through a set of modular engines.
 
 <p align="center">
-  <img src="assets/figures/driVe2x_lfm_engine_structure.png" alt="DriVe2X-LFM engine structure" width="85%" />
+  <img src="assets/figures/LFMO.png" alt="DriVe2X-LFM engine structure" width="85%" />
 </p>
 
 The orchestrator coordinates the engines, validates data exchange, runs scenarios and produces platform-level outputs. Each engine remains independently testable, reusable and documented.
