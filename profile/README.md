@@ -422,8 +422,4 @@ DriVe2X WP3 Lead and PI at the University of Salford
 
 ## Acknowledgement
 
-This work is connected to the **DriVe2X project**.
-
-The DriVe2X project has received funding from the European Union’s Horizon Europe research and innovation programme under Grant Agreement No. **101056934**. UKRI reference number: **10055673**.
-
-Views and opinions expressed in this software documentation are those of the author(s) only and do not necessarily reflect those of the European Union, CINEA, UKRI or the wider DriVe2X consortium. Neither the European Union nor the granting authority can be held responsible for them.
+This work has been conducted as part of the [**DriVe2X project**](https://drive2x.eu/). The DriVe2X project has received funding from the European Union’s Horizon Europe research and innovation programme under Grant Agreement No. **101056934**. UKRI reference number: **10055673**. Views and opinions expressed in this software documentation are those of the author(s) only and do not necessarily reflect those of the European Union, CINEA, UKRI or the wider DriVe2X consortium. Neither the European Union nor the granting authority can be held responsible for them.
