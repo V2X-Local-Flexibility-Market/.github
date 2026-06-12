@@ -185,7 +185,7 @@ This structure keeps ownership clear, avoids mixing independently developed work
 
 The full documentation for the DriVe2X Local Flexibility Market platform and the contributing researchers and partners is provided at the link below:
 
-- [Design of a Driver-Centric Local Flexibility Market:](assets/D3.4_software_pack_release_supporting_document.pdf))
+- [Design of a Driver-Centric Local Flexibility Market:](Link to the final report will be Added after submission)
 
 ---
 
