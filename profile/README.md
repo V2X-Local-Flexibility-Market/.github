@@ -160,7 +160,7 @@ This GitHub organisation hosts the DriVe2X-LFM software ecosystem as separate re
 | [`.github`](https://github.com/V2X-Local-Flexibility-Market/.github) | Organisation landing page, platform overview and documentation entry point. |
 | [`fnee-dd`](https://github.com/V2X-Local-Flexibility-Market/fnee-dd) | Data-driven flexibility need estimation using LSTM forecasting and congestion-window identification. |
 | [`fnee-md`](https://github.com/V2X-Local-Flexibility-Market/fnee-md) | Model-driven flexibility need estimation using network modelling and power-flow analysis. |
-| [`MGX](https://github.com/V2X-Local-Flexibility-Market/MGX) | Market-Grid eXchange Engine, developed in another DriVe2X work package and called by the platform when needed. |
+| [`MGX'](https://github.com/V2X-Local-Flexibility-Market/MGX) | Market-Grid eXchange Engine, developed in another DriVe2X work package and called by the platform when needed. |
 | [`mpse`](https://github.com/V2X-Local-Flexibility-Market/mpse) | Market participation strategy, bid preparation and participant decision support. |
 | [`mcse`](https://github.com/V2X-Local-Flexibility-Market/mcse) | Market clearing, award calculation and preliminary settlement logic. |
 | [`dsce`](https://github.com/V2X-Local-Flexibility-Market/dsce) | Driver-centric scheduling and control for EV smart charging and V2X dispatch. |
