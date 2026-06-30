@@ -262,13 +262,13 @@ The full technical background is provided in:
 D3.4, Design of a Driver-Centric Local Flexibility Market
 ```
 
-When the deliverable is approved and publicly available, place the PDF here:
+When the deliverable is approved and publicly available, we will place the PDF of it here:
 
 ```text
 docs/D3.4_Design_of_a_Driver_Centric_Local_Flexibility_Market.pdf
 ```
 
-Then update this README with the official EU CORDIS link:
+This deliverable will be uploaded and available on official EU CORDIS link:
 
 ```text
 https://cordis.europa.eu/project/id/101056934/results
@@ -279,7 +279,7 @@ https://cordis.europa.eu/project/id/101056934/results
 Please cite the deliverable and platform as follows, updating the final bibliographic details once the approved public version is available:
 
 ```text
-Vahidinasab, V., Adelipour, S., et al. (2026). D3.4: Design of a Driver-Centric Local Flexibility Market. DriVe2X Project, Horizon Europe Grant Agreement No. 101056934, UKRI Reference No. 10055673.
+Vahidinasab, V., et al. (2026). D3.4: Design of a Driver-Centric Local Flexibility Market. DriVe2X Project, Horizon Europe Grant Agreement No. 101056934, UKRI Reference No. 10055673.
 ```
 
 For the software platform:
