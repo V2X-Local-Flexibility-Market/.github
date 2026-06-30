@@ -14,7 +14,6 @@
   <img src="https://img.shields.io/badge/DriVe2X-LFM-2FAF67?style=for-the-badge&labelColor=161616" alt="DriVe2X-LFM" />
   <img src="https://img.shields.io/badge/Status-Research%20Software-161616?style=for-the-badge&labelColor=2FAF67" alt="Research software" />
   <img src="https://img.shields.io/badge/Python-3.10%2B-2FAF67?style=for-the-badge&labelColor=161616" alt="Python 3.10+" />
-  <a href="#licence"><img src="https://img.shields.io/badge/Licence-Apache%202.0-161616?style=for-the-badge&labelColor=2FAF67" alt="Apache License 2.0" /></a>
 </p>
 
 <p align="center">
@@ -386,11 +385,7 @@ The DriVe2X-LFM platform is designed around the following principles:
 
 ## Licence
 
-Unless stated otherwise, software repositories in this organisation are released under the **Apache License 2.0**.
-
 Documentation, diagrams and non-code material may be reused under **CC BY 4.0** where explicitly stated.
-
-Do not apply an open licence to confidential project material, partner-owned code, private operational data or draft deliverables that have not yet been cleared for public release.
 
 ---
 
